@@ -1,0 +1,264 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body {
+  font-family: "Raleway";
+  background-color: #fefcfd;
+  color: #2e0607;
+}
+
+
+.ant-select-selector{
+  background:#f3f3f3!important;
+}
+.height-minus-80 {
+  height: calc(100vh - 80px);
+}
+html {
+  overflow-x: hidden;
+  margin: 0 auto;
+
+}
+body {
+  font-family: "Raleway", sans-serif !important;
+  color: black;
+  background: white;
+  
+}
+.react-tabs__tab-list {
+  border-bottom: none !important;
+  margin: 1rem 0 10px !important;
+  padding: 0;
+  display: flex;
+  gap: 2px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #fff;
+  /* Basic box shadow at the bottom */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: none !important;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.hide-scrollbar {
+  scrollbar-width: none;  
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent; /* make scrollbar transparent */
+}
+@media (max-width: 560px) {
+  .category {
+    display: grid;
+  }
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexBetween {
+  @apply flex justify-between items-center;
+}
+
+.flexStart {
+  @apply flex items-center justify-start;
+}
+
+.text-small {
+  @apply text-sm font-medium;
+}
+
+.paddings {
+  @apply lg:px-28 py-6 px-5;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 12px;
+}
+
+.modal-head-text {
+  @apply md:text-5xl text-3xl font-extrabold text-left max-w-5xl w-full;
+}
+
+.no-result-text {
+  @apply w-full text-center my-10 px-2;
+}
+
+
+/* Home */
+.projects-grid {
+  @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
+}
+
+
+
+.delete-action_btn {
+  @apply p-3 text-gray-100 hover:bg-red-600 rounded-lg text-sm font-medium;
+}
+
+/* Related Project Card */
+.related_project-card {
+  @apply flex-col rounded-2xl min-w-[210px] min-h-[197px];
+}
+
+.related_project-card_title {
+  @apply justify-end items-end w-full h-1/3 bg-gradient-to-b from-transparent to-black/50 rounded-b-2xl gap-2 absolute bottom-0 right-0 font-semibold text-lg text-white p-4;
+}
+
+.related_projects-grid {
+  @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+}
+
+.custom_menu-items {
+  @apply flex-col absolute left-0 mt-2  w-fit max-h-64 origin-top-right rounded-xl bg-white border border-nav-border  overflow-y-auto;
+}
+
+
+
+/* Footer */
+.footer {
+  @apply flex-col paddings w-full gap-20 bg-secondary ;
+
+  
+    --mask:
+      radial-gradient(141.09px at 50% 192.50px,#000 99%,#0000 101%) calc(50% - 140px) 0/280px 100%,
+      radial-gradient(141.09px at 50% -122.5px,#0000 99%,#000 101%) 50% 70px/280px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+
+}
+
+.footer_copyright {
+  @apply max-sm:flex-col w-full text-sm font-normal items-center bg-bg-dark;
+}
+
+.footer_column {
+  @apply md:flex-1 flex flex-col gap-3 text-sm ;
+}
+
+
+.shape1 {
+ left: 2%
+}
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ea1d24;
+}
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ea1d24;
+}
+
+/* Modal */
+.modal {
+  @apply fixed z-10 left-0 right-0 top-0 bottom-0 mx-auto bg-black/80;
+}
+
+.modal_wrapper {
+  @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
+}
+
+/* Navbar */
+.navbar {
+  @apply py-5 px-28 gap-4;
+}
+
+/* src/components/CustomToggle.css */
+/* src/components/CustomToggle.css */
+
+/* The container for the custom toggle */
+.custom-toggle {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+
+
+/* The hidden checkbox input */
+.custom-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 15px;
+}
+
+/* The slider when checked */
+.slider.checked {
+  background-color: #007bff;
+}
+
+/* The slider's circle handle */
+.slider:after {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+}
+
+/* The slider's circle handle when checked */
+input:checked + .slider:after {
+  transform: translateX(30px);
+}
