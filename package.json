@@ -65,6 +65,7 @@
     "@types/aos": "^3.0.7",
     "@types/google.maps": "^3.54.10",
     "@types/moment": "^2.13.0",
-    "daisyui": "^3.9.4"
+    "daisyui": "^3.9.4",
+    "postcss-preset-env": "^9.3.0"
   }
 }
