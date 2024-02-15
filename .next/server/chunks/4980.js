@@ -619,7 +619,7 @@ const Footer = ()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
                 className: "flex justify-items-center footer_copyright py-6",
                 children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                     className: "text-white text-center container mx-auto",
-                    children: "@ 2023 Flexibble. All rights reserved"
+                    children: "@ 2024 Plenti. All rights reserved"
                 })
             })
         ]

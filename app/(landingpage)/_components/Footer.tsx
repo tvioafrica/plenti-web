@@ -46,7 +46,7 @@ const Footer = () => (
     <div className="flex justify-items-center footer_copyright py-6">
            
          
-           <p  className="text-white text-center container mx-auto">@ 2024 Plenti Africa. All rights reserved</p>
+           <p  className="text-white text-center container mx-auto">@ 2024 Plenti. All rights reserved</p>
               
     
        </div>
