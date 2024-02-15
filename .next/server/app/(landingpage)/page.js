@@ -322,26 +322,26 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 99823:
+/***/ 70823:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 81962));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86300));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8562));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9209));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99574));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86300));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79735));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85517));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24729));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8562));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 81962));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57488));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62313));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 26910));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45861));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25352));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91307));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85517));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24729));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3396));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59276));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99574));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45861));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 26910));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91307));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25352));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 42515));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59276));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 81817))
 
@@ -543,12 +543,11 @@ const HeroSection = ()=>{
                                     className: "lg:text-5xl text-3xl font-medium",
                                     "data-aos": "fade-right",
                                     children: [
-                                        "Create a free account to start ",
+                                        "Get more from your ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             className: "text-primary",
-                                            children: "shopping, earning loyalty points & cashbacks "
-                                        }),
-                                        "at your favorite stores."
+                                            children: "shopping! "
+                                        })
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -758,7 +757,7 @@ const HomePage = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4178,4407,2451,1539,4274,951,4980,8545,4246,2984,6462], () => (__webpack_exec__(36339)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4407,2451,4178,1539,4274,951,4980,8545,4246,2984,6462], () => (__webpack_exec__(36339)));
 module.exports = __webpack_exports__;
 
 })();

@@ -389,7 +389,11 @@ var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./app/(landingpage)/_constants/index.ts
 var _constants = __webpack_require__(17387);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(11440);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./app/(landingpage)/deals/MerchantCard.tsx
+
 
 
 const MerchantCard = ()=>{
@@ -427,7 +431,7 @@ const MerchantCard = ()=>{
                                 className: "mt-2 text-gray-500 text-sm pb-4",
                                 children: "Lorem Ipsum is simpprinting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 href: "",
                                 className: "text-sm text-gray-500  underline",
                                 children: "View offers available"
@@ -441,9 +445,6 @@ const MerchantCard = ()=>{
 };
 /* harmony default export */ const deals_MerchantCard = (MerchantCard);
 
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(11440);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./app/(landingpage)/_components/Label.tsx
 var Label = __webpack_require__(8405);
 ;// CONCATENATED MODULE: ./app/(landingpage)/deals/page.tsx

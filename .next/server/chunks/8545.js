@@ -20,7 +20,7 @@ __webpack_require__.d(__webpack_exports__, {
   kt: () => (/* binding */ _constants_section4)
 });
 
-// UNUSED EXPORTS: NavLinks, aboutUs, bannerSection, dealsDetails, footerLinks, howItWorks, moreWays, productsData
+// UNUSED EXPORTS: NavLinks, SupportLinks, aboutUs, bannerSection, dealsDetails, footerLinks, howItWorks, moreWays, productsData
 
 ;// CONCATENATED MODULE: ./public/section1.svg
 /* harmony default export */ const section1 = ({"src":"/_next/static/media/section1.bbb145eb.svg","height":585,"width":435,"blurWidth":0,"blurHeight":0});
@@ -94,6 +94,18 @@ const NavLinks = [
         href: "/contact",
         key: "Contact",
         text: "Contact"
+    }
+];
+const SupportLinks = [
+    {
+        href: "/tanc",
+        key: "Terms of Use",
+        text: "Terms of Use"
+    },
+    {
+        href: "/privacy",
+        key: "Privacy Policy",
+        text: "Privacy Policy"
     }
 ];
 const footerLinks = [

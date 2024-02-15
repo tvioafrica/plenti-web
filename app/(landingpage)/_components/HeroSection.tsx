@@ -72,7 +72,7 @@ const HeroSection = () => {
                     </div>
                    
                     <div>
-                        <h1 className='lg:text-5xl text-3xl font-medium' data-aos="fade-right" >Create a free account to start <span className='text-primary'>shopping, earning loyalty points & cashbacks </span>at your favorite stores.</h1>
+                        <h1 className='lg:text-5xl text-3xl font-medium' data-aos="fade-right" >Get more from your <span className='text-primary'>shopping! </span></h1>
                         <p className='py-10 text-center text-xl lg:px-64' data-aos="fade-left">Get rewarded every time you shop, Plenti Africa is designed to bring you incredible deals, amazing rewards, and a seamless shopping experience.</p>
                     </div>
                    

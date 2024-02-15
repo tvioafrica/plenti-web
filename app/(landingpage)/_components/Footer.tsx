@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { NavLinks, footerLinks } from "../_constants/index";
+import { NavLinks, SupportLinks, footerLinks } from "../_constants/index";
 
 type ColumnProps = {
     title: string;
@@ -41,9 +41,15 @@ const Footer = () => (
                     </ul>
                 </div>
 
+                <div className="footer_column ">
+                    <h4 className="font-semibold">Company</h4>
+                    <ul className="flex flex-col gap-2 font-normal">
+                        {SupportLinks.map((link) => (
+                            <Link href={link.href} key={link.key}>{link.text}</Link>
+                        ))}
+                    </ul>
+                </div>
 
-
-                <FooterColumn title={footerLinks[1].title} links={footerLinks[1].links} />
 
                 <div>
                     <FooterColumn title={footerLinks[2].title} links={footerLinks[2].links} />

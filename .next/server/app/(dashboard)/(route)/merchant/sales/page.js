@@ -658,7 +658,7 @@ const CustomersPage = ()=>{
 var __webpack_require__ = require("../../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4178,2451,229,6172,8966,7453,8472,7319,951,1255,6745,8204,9176], () => (__webpack_exec__(44667)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,2451,4178,229,6172,8966,7453,8472,7319,951,778,6745,8204,9176], () => (__webpack_exec__(44667)));
 module.exports = __webpack_exports__;
 
 })();

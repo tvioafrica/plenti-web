@@ -24,6 +24,10 @@ export const NavLinks = [
   { href: '/contact', key: 'Contact', text: 'Contact' },
 ];
 
+export const SupportLinks = [
+  { href: '/tanc', key: 'Terms of Use', text: 'Terms of Use' },
+  { href: '/privacy', key: 'Privacy Policy', text: 'Privacy Policy' }
+];
 
 
 export const footerLinks = [
@@ -353,3 +357,6 @@ export const merchantItems = {
     },
   ]
 }
+
+
+

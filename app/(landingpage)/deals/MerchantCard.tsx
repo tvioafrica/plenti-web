@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const MerchantCard = () => {
@@ -15,7 +16,7 @@ const MerchantCard = () => {
                     <div className=" px-4">
                         <h2 className="text-gray-800 text-xl font-bold">The palms shopping mall</h2>
                         <p className="mt-2 text-gray-500 text-sm pb-4">Lorem Ipsum is simpprinting and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </p>
-                        <a href="" className='text-sm text-gray-500  underline'>View offers available</a>
+                        <Link href="" className='text-sm text-gray-500  underline'>View offers available</Link>
                     </div>
                  
                 </div>

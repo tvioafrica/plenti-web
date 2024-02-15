@@ -530,7 +530,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4178,4407,2451,1539,951,4980,2984], () => (__webpack_exec__(19474)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4407,2451,4178,1539,951,4980,2984], () => (__webpack_exec__(19474)));
 module.exports = __webpack_exports__;
 
 })();

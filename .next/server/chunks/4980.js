@@ -61,6 +61,7 @@ const Button = ({ title, leftIcon, rightIcon, handleClick, submitting, type, bgC
 /* harmony export */   dk: () => (/* binding */ footerLinks),
 /* harmony export */   fc: () => (/* binding */ dealsDetails),
 /* harmony export */   merchantItems: () => (/* binding */ merchantItems),
+/* harmony export */   ni: () => (/* binding */ SupportLinks),
 /* harmony export */   xg: () => (/* binding */ bannerSection),
 /* harmony export */   zp: () => (/* binding */ dealSection)
 /* harmony export */ });
@@ -119,6 +120,18 @@ const NavLinks = [
         href: "/contact",
         key: "Contact",
         text: "Contact"
+    }
+];
+const SupportLinks = [
+    {
+        href: "/tanc",
+        key: "Terms of Use",
+        text: "Terms of Use"
+    },
+    {
+        href: "/privacy",
+        key: "Privacy Policy",
+        text: "Privacy Policy"
     }
 ];
 const footerLinks = [
@@ -614,9 +627,21 @@ const Footer = ()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(FooterColumn, {
-                            title: _constants/* footerLinks */.dk[1].title,
-                            links: _constants/* footerLinks */.dk[1].links
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "footer_column ",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                    className: "font-semibold",
+                                    children: "Company"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                                    className: "flex flex-col gap-2 font-normal",
+                                    children: _constants/* SupportLinks */.ni.map((link)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                            href: link.href,
+                                            children: link.text
+                                        }, link.key))
+                                })
+                            ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             children: /*#__PURE__*/ jsx_runtime_.jsx(FooterColumn, {
