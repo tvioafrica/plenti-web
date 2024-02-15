@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
           labelColor="bg-section2Label"
         />
       </div>
-      <div className='flex flex-col container mx-auto px-4 md:px-0 md:w-1/3 items-center'>
+      <div className='flex flex-col container mx-auto px-4 md:px-0 md:w-1/1 items-center'>
          <h2 className='text-center font-semibold text-3xl w-2/3 py-8 mx-auto'>Frequently asked questions about Plenti Africa</h2>
       <Faq />
       </div>

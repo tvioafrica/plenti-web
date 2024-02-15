@@ -570,7 +570,7 @@ const FooterColumn = ({ title, links })=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("di
             /*#__PURE__*/ jsx_runtime_.jsx("ul", {
                 className: "flex flex-col gap-2 font-normal",
                 children: links.map((link)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                        href: "/",
+                        href: "/hhh",
                         children: link
                     }, link))
             })
@@ -581,7 +581,7 @@ const Footer = ()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
             /*#__PURE__*/ jsx_runtime_.jsx("section", {
                 className: "md:w-full footer mt-10 bg-secondary",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "md:flex px-4 md:px-0 flex-row gap-12  container mx-auto pt-28 grid grid-cols-2",
+                    className: "md:flex px-4 md:px-0 flex-row gap-20  container mx-auto pt-28 grid grid-cols-2",
                     children: [
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "flex items-start flex-col ",
@@ -594,13 +594,25 @@ const Footer = ()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                     className: "text-start text-sm font-normal mt-5 ",
-                                    children: "Biggest reward platform in Africa"
+                                    children: "Customer engagement platform"
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(FooterColumn, {
-                            title: _constants/* footerLinks */.dk[0].title,
-                            links: _constants/* footerLinks */.dk[0].links
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "footer_column ",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                    className: "font-semibold",
+                                    children: "Company"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                                    className: "flex flex-col gap-2 font-normal",
+                                    children: _constants/* NavLinks */.H9.map((link)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                            href: link.href,
+                                            children: link.text
+                                        }, link.key))
+                                })
+                            ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(FooterColumn, {
                             title: _constants/* footerLinks */.dk[1].title,

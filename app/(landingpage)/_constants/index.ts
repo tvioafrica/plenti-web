@@ -25,6 +25,7 @@ export const NavLinks = [
 ];
 
 
+
 export const footerLinks = [
   {
     title: 'COMPANY',

@@ -665,7 +665,7 @@ const ProductDetails = ()=>{
 var __webpack_require__ = require("../../../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4178,8966,8209,433,5735,951,778,6745,9176,5535], () => (__webpack_exec__(50209)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,9792,1440,3380,4178,8966,8209,433,5735,951,1255,6745,9176,5535], () => (__webpack_exec__(50209)));
 module.exports = __webpack_exports__;
 
 })();

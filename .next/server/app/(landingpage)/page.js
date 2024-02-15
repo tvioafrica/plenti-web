@@ -322,26 +322,26 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 53016:
+/***/ 99823:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9209));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 81962));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86300));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79735));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8562));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9209));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99574));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62313));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79735));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 85517));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57488));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24729));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45861));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57488));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62313));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 26910));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3396));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 42515));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45861));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25352));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59276));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91307));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3396));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59276));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 42515));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 81817))
 
@@ -567,8 +567,8 @@ const HeroSection = ()=>{
                     title: "Join for free"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/hero.png",
-                    width: 800,
+                    src: "/hero2.png",
+                    width: 900,
                     height: 600,
                     alt: "logo",
                     className: "py-20",
@@ -734,7 +734,7 @@ const HomePage = ()=>{
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex flex-col container mx-auto px-4 md:px-0 md:w-1/3 items-center",
+                className: "flex flex-col container mx-auto px-4 md:px-0 md:w-1/1 items-center",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         className: "text-center font-semibold text-3xl w-2/3 py-8 mx-auto",

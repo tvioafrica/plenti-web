@@ -83,8 +83,8 @@ const HeroSection = () => {
 
                 <Button title="Join for free" />
                 <Image
-                    src="/hero.png"
-                    width={800}
+                    src="/hero2.png"
+                    width={900}
                     height={600}
                     alt="logo"
                     className='py-20'
