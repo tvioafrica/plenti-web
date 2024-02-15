@@ -1,13 +1,13 @@
-exports.id = 1345;
-exports.ids = [1345];
+exports.id = 6070;
+exports.ids = [6070];
 exports.modules = {
 
-/***/ 93523:
+/***/ 47588:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18389));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75286));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 92867));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75286));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18389));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 33088))
 
 /***/ }),
@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _public_customerImages_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31978);
 /* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11987);
-/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2797);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3986);
 /* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(63754);
 /* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(23141);

@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="z-10  w-full  bg-white fixed px-4 md:px-0">
       <div className="flex z-10 justify-between py-4 container mx-auto items-center top-0 left-0 right-0">
         <div className="">
-          <Link href="/home">
+          <Link href="/">
             <Image
               src="/plenti_logo_dark.svg"
               width={116}

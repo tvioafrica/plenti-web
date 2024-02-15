@@ -691,7 +691,7 @@ const Navbar = ()=>{
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "",
                     children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                        href: "/home",
+                        href: "/",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: "/plenti_logo_dark.svg",
                             width: 116,
